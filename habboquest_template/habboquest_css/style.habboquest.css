@@ -1,0 +1,1150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #252525;
+    color: #757575;
+    font-size: 15px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+} 
+::-webkit-scrollbar-thumb {
+    background: #ba8216;
+    border-radius: 10px;
+}
+
+.habboquest-login-button {
+    background-color: #ba8216;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 15px;
+    width: 385px;
+    color: #dbcece;
+    border-radius: 3px;
+    display: inline-block;
+}
+.habboquest-login-button i {
+    margin-top: -3px;
+}
+#habboquest-login-complete {
+    display: none;
+}
+#habboquest-login-pincode {
+    display: none;
+}
+#habboquest-login-one {
+
+}
+#habboquest-login-two {
+    display: none;
+}
+#habboquest-login-three {
+    display: none;
+}
+
+button {
+    background-color: #ba8216;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 15px;
+    width: 385px;
+    color: #dbcece;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+button:hover {
+    background-color: #b88e38;
+    cursor: pointer;
+    transition: 0.3s;
+}
+*:focus {
+    outline: none;
+}
+input {
+    width: 385px;
+    padding: 15px 15px;
+    margin-bottom: 0.5em;
+    border: 0px;
+    background-color: #202020;
+    color: #ababb1;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+i {
+    margin-top: 7.5px;
+}
+
+#habboquest-register {
+    display: none;
+}
+
+.habboquest-nav {
+    width: 100%;
+    height: 125px;
+    background-color: #202020;
+}
+.habboquest-nav-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.habboquest-nav-grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.2fr;
+    gap: 20px;
+}
+.habboquest-nav-grid-a-1 {
+    width: 100%;
+    height: 100%;
+}
+.habboquest-nav-grid-a-1 img {
+    margin-top: 40px;
+}
+
+.habboquest-nav-grid-a-2 {
+    width: 100%;
+    height: 100%;
+}
+.habboquest-nav-grid-a-2 a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    width: 85px;
+    color: #757575;;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-nav-grid-a-2 a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+.habboquest-nav-grid-other-link {
+    display: none;
+    background-color: #202020;
+    margin-left: -50px;
+    padding: 25px 30px;
+    border-radius: 0px 0px 5px 5px;
+}
+.habboquest-nav-grid-other-link div:hover {
+    color: #b88e38;
+    transition: 0.3s;
+}
+.habboquest-nav-grid-a-2 a:hover .habboquest-nav-grid-other-link {
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    margin-top: 125px;
+    color: #757575;
+}
+.habboquest-nav-grid-a-2 a i {
+    margin-top: 57.5px;
+    margin-left: 40%;
+}
+
+.habboquest-nav-grid-a-3 {
+    width: 100%;
+    height: 100%;
+}  
+.habboquest-nav-grid-a-3 a {
+    background-color: #ba8216;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 17.5px;
+    text-decoration: none;
+    margin-top: 37.5px;
+    color: #dbcece;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-nav-grid-a-3 a:hover {
+    background-color: #b88e38;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.habboquest-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.habboquest-content-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.75fr 1.75fr;
+    gap: 25px;
+}
+.habboquest-content-grid-a-1 {
+    width: 100%;
+    height: 100%;
+}
+.habboquest-content-grid-a-1 .habboquest-small-user-profile {
+    width: 100%;
+    height: 235px;
+    background-color: #ba8216;
+    border-radius: 5px;
+    color: #757575;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.habboquest-small-user-profile::before {
+    content: "";
+    width: 425px;
+    height: 235px;
+    background-color: #202020;
+    display: block;
+    transform: skew(20deg);
+    margin-left: 345px;
+    position: absolute;
+    z-index: 1;
+}
+.habboquest-small-user-profile:hover::before {
+    content: "";
+    margin-left: 400px;
+    transition: 0.3s;
+}
+.habboquest-content-grid-a-1 .habboquest-small-user-profile img {
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline-block;
+    float: left;
+}
+.habboquest-content-grid-a-1 .habboquest-small-user-profile-grid {
+    width: 550px;
+    height: 200px;
+    display: grid;
+    float: left;
+    z-index: 2;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.habboquest-content-grid-a-1 .habboquest-small-user-profile-grid-a-1 {
+    width: 100%;
+    height: 25px;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: #202020;
+}
+
+.habboquest-small-user-profile-box {
+    width: 125px;
+    height: 250px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: #202020;
+    position: absolute;
+    margin-left: 415px;
+}
+
+.habboquest-content-grid-a-2 .habboquest-shop-habbo {
+    width: 100%;
+    height: 160px;
+    color: #ababb1;
+}
+.habboquest-content-grid-a-2 .habboquest-shop-habbo .habboquest-shop-habbo-placeholder {
+    width: 100%;
+    height: 160px;
+    background-color: #ba8216;
+    border-radius: 5px;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.habboquest-content-grid-a-2 .habboquest-shop-habbo .habboquest-shop-habbo-placeholder-username {
+    height: 25px;
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: #202020;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 115px;
+    color: #757575;
+}
+.habboquest-content-grid-a-2 .habboquest-shop-habbo .habboquest-shop-habbo-placeholder-points {
+    height: 25px;
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: #202020;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 115px;
+    color: #757575;
+}
+.habboquest-shop-habbo-placeholder:before {
+    content: "";
+    width: 225px;
+    height: 160px;
+    background-color: #202020;
+    display: block;
+    transform: skew(20deg);
+    margin-left: 300px;
+    position: absolute;
+}
+.habboquest-shop-habbo-placeholder:hover::before {
+    content: "";
+    margin-left: 350px;
+    transition: 0.3s;
+}
+
+.habboquest-content-grid-a-2 {
+    width: 100%;
+    height: 100%;
+}
+.habboquest-content-grid-a-2 .habboquest-news {
+    width: 100%;
+    height: 160px;
+    color: #757575;;
+}
+.habboquest-content-grid-a-2 .habboquest-news .habboquest-news-placeholder {
+    width: 100%;
+    height: 155px;
+    background-color: #ba8216;
+    border-radius: 5px;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.habboquest-news-placeholder:before {
+    content: "";
+    width: 225px;
+    height: 160px;
+    background-color: #202020;
+    display: block;
+    transform: skew(20deg);
+    margin-left: 300px;
+    position: absolute;
+}
+.habboquest-news-placeholder:hover::before {
+    content: "";
+    margin-left: 350px;
+    transition: 0.3s;
+}
+.habboquest-content-grid-a-2 .habboquest-news .habboquest-news-placeholder .habboquest-news-id {
+    background-color: #202020;
+    padding: 20px 25px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+.habboquest-content-grid-a-2 .habboquest-news .habboquest-news-placeholder .habboquest-news-title {
+    background-color: #202020;
+    padding: 20px 25px;
+    width: 250px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    z-index: 3;
+}
+.habboquest-content-grid-a-2 .habboquest-news .habboquest-news-placeholder .habboquest-news-description {
+    background-color: #202020;
+    padding: 20px 25px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 3;
+}
+.habboquest-news-main {
+    width: 93%;
+    min-height: 100px;
+    background-color: #202020;
+    border-radius: 5px;
+    color: #ababb1;
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.habboquest-content-grid-a-2 .habboquest-event {
+    width: 100%;
+    height: 160px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.habboquest-content-grid-a-2 .habboquest-event-image {
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    border-radius: 5px;
+    color: #ababb1;
+}
+.habboquest-content-grid-a-2 .habboquest-event-time {
+    border-radius: 5px;
+    background-color: #252525;
+    display: inline-block;
+    width: 105px;
+    margin-left: 10px;
+    color: #757575;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+.habboquest-content-grid-a-2 .habboquest-event-type {
+    border-radius: 5px;
+    background-color: #202020;
+    display: inline-block;
+    width: 115px;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    color: #757575;
+}
+.habboquest-content-grid-a-2 .habboquest-event-username {
+    border-radius: 5px;
+    background-color: #202020;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    color: #757575;
+    font-size: 13px;
+}
+.habboquest-content-grid-a-2 .habboquest-event-username a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababb1;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-content-grid-a-2 .habboquest-event-username a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+
+.habboquest-inventory {
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+.habboquest-inventory-placeholder {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: #252525;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.habboquest-inventory .habboquest-inventory-empty {
+    text-align: center;
+    line-height: 195px;
+}
+
+.habboquest-online {
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+}
+.habboquest-online .habboquest-online-placeholder {
+    
+}
+.habboquest-online .habboquest-online-none {
+    text-align: center;
+    line-height: 175px;
+}
+
+.habboquest-rarevalues {
+    width: 98.5%;
+    border-radius: 5px;
+    background-color: #202020;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+.habboquest-rarevalues .habboquest-rarevalues-none {
+    text-align: center;
+    line-height: 175px;
+}
+.habboquest-rarevalues .habboquest-rarevalues-placeholder {
+    height: 75px;
+    width: 165px;
+    border-radius: 5px;
+    background-color: #252525;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.habboquest-rarevalues a:hover {
+    color: #b88e38;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.habboquest-rarevalues .habboquest-rarevalues-cost {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 85px;
+}
+.habboquest-rarevalues .habboquest-rarevalues-placeholder img {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.habboquest-me-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 25px;
+}
+
+.habboquest-users-online {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #202020;
+    height: 225px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.habboquest-me-box {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.habboquest-hottest-rooms {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #202020;
+    height: 225px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.habboquest-hottest-rooms-none {
+    padding-top: 5px;
+}
+.habboquest-hottest-rooms-placeholder {
+    padding-top: 4px;
+    position: relative;
+    z-index: 10000;
+}
+.habboquest-hottest-rooms-placeholder a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababb1;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-hottest-rooms-placeholder a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+
+.habboquest-uotw-placeholder {
+    padding-top: 4px;
+    position: relative;
+    z-index: 10000;
+}
+.habboquest-uotw-placeholder a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababb1;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-uotw-placeholder a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+
+.habboquest-latest-register-placeholder-box {
+    width: 300px;
+}
+.habboquest-latest-register-placeholder {
+    padding-top: 4px;
+    position: relative;
+    z-index: 10000;
+    display: inline-block;
+}
+.habboquest-latest-register-placeholder a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababb1;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-latest-register-placeholder a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+
+.habboquest-recent-purchases-none {
+    padding-top: 5px;
+}
+.habboquest-recent-purchases-placeholder {
+    padding-top: 4px;
+    position: relative;
+    z-index: 10000;
+}
+.habboquest-recent-purchases-placeholder a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababb1;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-recent-purchases-placeholder a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+
+.habboquest-footer {
+    width: 96.5%;
+    border-radius: 5px;
+    background-color: #202020;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    margin-top: 25px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.habboquest-footer a {
+    text-decoration: none;
+    color: #757575;
+}
+.habboquest-footer a:hover {
+    color: #b88e38;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.habboquest-radio-placeholder {
+    width: 98.5%;
+    border-radius: 5px;
+    background-color: #202020;
+    padding-top: 10px;
+    height: 125px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.habboquest-staff {
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px; 
+}
+.habboquest-staff .habboquest-staff-none {
+    text-align: center;
+    line-height: 175px;
+}
+
+.habboquest-timetable {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px; 
+    padding-bottom: 10px;
+}
+.habboquest-timetable-placeholder {
+    height: 150px;
+    width: 108.5px;
+    display: inline-block;
+}
+.habboquest-timetable-placeholder a {
+    background-color: #ba821600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababb1;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-timetable-placeholder a:hover {
+    background-color: #ba821600;
+    cursor: pointer;
+    color: #b88e38;
+    transition: 0.3s;
+}
+.habboquest-timetable .habboquest-timetable-time {
+    border-radius: 5px;
+    background-color: #252525;
+    display: inline-block;
+    width: 115px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+.habboquest-timetable .habboquest-timetable-type {
+    border-radius: 5px;
+    background-color: #202020;
+    display: inline-block;
+    width: 115px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 0px;
+    width: 140px;
+    font-size: 13px;
+}
+.habboquest-timetable .habboquest-timetable-none {
+    text-align: center;
+    line-height: 175px;
+}
+
+.habboquest-transactions {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.habboquest-transaction {
+    width: 665.5px;
+    margin-left: 10px;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: #252525;
+    margin-top: 10px;
+}
+.habboquest-transaction-name {
+    display: inline-block;
+}
+.habboquest-transaction-made {
+    display: inline-block;
+}
+.habboquest-transaction-description {
+    display: inline-block;
+}
+.habboquest-transactions .habboquest-transactions-none {
+    text-align: center;
+    line-height: 175px;
+}
+
+.habboquest-badges {
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+}
+.habboquest-badges .habboquest-badges-none {
+    text-align: center;
+    line-height: 175px;
+}
+
+.habboquest-leaderboard {
+    width: 100%;
+    height: 175px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+}
+.habboquest-leaderboard .habboquest-leaderboard-placeholder {
+    text-align: center;
+    line-height: 175px;
+    display: inline-block;
+    width: 45px;
+    margin-left: 30px;
+}
+.habboquest-leaderboard .habboquest-leaderboard-none {
+    text-align: center;
+    line-height: 175px;
+}
+
+.habboquest-account {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.habboquest-account input {
+    background-color: #252525;
+}
+.habboquest-account a {
+    background-color: #ba8216;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 11px;
+    text-decoration: none;
+    width: 280px;
+    color: #dbcece;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.habboquest-account a:hover {
+    background-color: #b88e38;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.habboquest-content-grid-a-1 .habboquest-news-links {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding: 20px 0px;
+}
+.habboquest-content-grid-a-1 .habboquest-news-links a {
+    color: #757575;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.habboquest-content-grid-a-1 .habboquest-news-links a:hover {
+    color: #b88e38;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#habboquest-change-username {
+    float: right; 
+    margin-top: -174px; 
+    margin-right: 10px;
+}
+
+#habboquest-change-mail {
+    display: none;
+    float: right; 
+    margin-top: -174px; 
+    margin-right: 10px;
+}
+
+#habboquest-change-password {
+    display: none;
+    float: right; 
+    margin-top: -174px; 
+    margin-right: 10px;
+}
+
+.habboquest-crate-common {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.habboquest-crate-uncommon {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.habboquest-crate-rare {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.habboquest-crate-ultrarare {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.habboquest-currency-credits {
+    width: 97.25%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.habboquest-currency-credits-placeholder {
+    width: 100%;
+    height: 168px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.habboquest-currency-form {
+    position: absolute;
+    width: 205px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.habboquest-currency-credits-placeholder button {
+    background-color: #ba8216;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 15px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    color: #dbcece;
+    border-radius: 3px;
+    margin-left: 37.5px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-currency-credits-placeholder button:hover {
+    background-color: #b88e38;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.habboquest-currency-duckets {
+    width: 97.25%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.habboquest-currency-duckets-placeholder {
+    width: 100%;
+    height: 168px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.habboquest-currency-diamonds {
+    width: 97.25%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.habboquest-currency-diamonds-placeholder {
+    width: 100%;
+    height: 168px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.habboquest-currency-points {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.habboquest-vip-bronze {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.habboquest-vip-silver {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+.habboquest-vip-gold {
+    width: 100%;
+    height: 191px;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding-top: 5px;
+}
+
+.habboquest-announcement {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #202020;
+    margin-top: 25px;
+    padding: 30px 0px 55px 0px;
+    margin-bottom: 15px;
+}
+
+.habboquest-staff-donations {
+    width: 100%;
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    overflow: hidden;
+}
+.habboquest-staff-donations-placeholder {
+    width: 100%;
+    height: 180px;
+    background-color: #202020;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.habboquest-staff-donations-placeholder .habboquest-staff-donations-placeholder-info {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 138px;
+    margin-top: -125px;
+}
+.habboquest-staff-donations-placeholder .habboquest-staff-donations-placeholder-info a {
+    background-color: #ba831600;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 15px;
+    width: 125px;
+    text-decoration: none;
+    text-align: center;
+    color: #757575;;
+    border-radius: 3px;
+    margin-left: -75px;
+    margin-top: -15px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-staff-donations-placeholder .habboquest-staff-donations-placeholder-info a:hover {
+    color: #b88e38;
+    transition: 0.3s;
+    background-color: #ba831600;
+}
+.habboquest-staff-donations-placeholder a {
+    background-color: #ba8216;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 15px;
+    width: 125px;
+    text-decoration: none;
+    text-align: center;
+    color: #dbcece;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.habboquest-staff-donations-placeholder a:hover {
+    background-color: #b88e38;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.habboquest-staff-donations-placeholder-none {
+    width: 100%;
+    height: 191px;
+    background-color: #202020;
+    border-radius: 5px;
+}
+
+.habboquest-cms-error {
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    background-color: #ba8216;
+    color: white;
+}

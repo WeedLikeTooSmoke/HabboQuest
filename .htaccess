@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ /index.php [NC,L,QSA]
+RewriteRule ^profile/([a-zA-Z0-9_-]+)(|/)$ index.php?username=$1
+RewriteRule ^news/([a-zA-Z0-9_-]+)(|/)$ index.php?id=$1
